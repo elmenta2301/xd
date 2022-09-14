@@ -1,0 +1,35 @@
+import javax.swing.JOptionPane;
+public class Sumatoria
+{
+
+	public static void main(String[] args) 
+	{
+	  
+		String palabra, palabra2, palabra3, palabra4, palabra5, palabra6, palabra7, palabra8, palabra9, palabra10;
+	    double numero1, numero2, numero3, numero4, numero5, numero6, numero7, numero8, numero9, numero10, resultado;
+		palabra = JOptionPane.showInputDialog("Este programa hace una suma\nDame el primer numero");
+		palabra2 = JOptionPane.showInputDialog("Dame el segundo numero");
+		palabra3 = JOptionPane.showInputDialog("Dame el tercer numero");
+		palabra4 = JOptionPane.showInputDialog("Dame el cuarto numero");
+		palabra5 = JOptionPane.showInputDialog("Dame el quinto numero");
+		palabra6 = JOptionPane.showInputDialog("Dame el sexto numero");
+		palabra7 = JOptionPane.showInputDialog("Dame el sptimo numero");
+		palabra8 = JOptionPane.showInputDialog("Dame el octavo numero");
+		palabra9 = JOptionPane.showInputDialog("Dame el noveno numero");
+		palabra10 = JOptionPane.showInputDialog("Dame el decimo numero");
+		numero1 = Double.parseDouble(palabra);
+		numero2 = Double.parseDouble(palabra2);
+		numero3 = Double.parseDouble(palabra3);
+		numero4 = Double.parseDouble(palabra4);
+		numero5 = Double.parseDouble(palabra5);
+		numero6 = Double.parseDouble(palabra6);
+		numero7 = Double.parseDouble(palabra7);
+		numero8 = Double.parseDouble(palabra8);
+		numero9 = Double.parseDouble(palabra9);
+		numero10 = Double.parseDouble(palabra10);
+		resultado = numero1+numero2+numero3+numero4+numero5+numero6+numero7+numero8+numero9+numero10;
+		JOptionPane.showMessageDialog(null, "la suma es:\n"+resultado);
+
+	}
+
+}
