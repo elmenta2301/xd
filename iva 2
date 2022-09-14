@@ -1,0 +1,27 @@
+import java.lang.Math;
+import java.util.Scanner;
+public class Impuestos {
+
+	public static void main(String[] args) 
+	{
+		
+		
+		
+		
+		double producto, producto2,  producto3, producto4, producto5, resultado;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Dame el precio del producto:");
+		producto = in.nextDouble ();
+	    System.out.println("Dame el siguinte precio:");
+		producto2 = in.nextDouble();
+		System.out.println("Dame el siguiente precio");
+		producto3 = in.nextDouble();
+		System.out.println("Dame el siguiente precio");
+		producto4 = in.nextDouble();
+		System.out.println("Dame el siguiente precio");
+		producto5 = in.nextDouble();
+		System.out.println("el IVA  que pagaste es: " + (producto + producto2 + producto3 + producto4 + producto5) * 0.16);
+
+	}
+
+}
